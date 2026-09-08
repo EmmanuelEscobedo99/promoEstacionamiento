@@ -47,5 +47,5 @@ export default function Screenshots() {
         ))}
       </div>
     </section>
-  )
+  )//
 }
