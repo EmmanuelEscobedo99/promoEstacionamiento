@@ -15,7 +15,12 @@ const ES = {
       'Mapa de espacios en tiempo real, cobro automático por tiempo, registro de vehículos y estadísticas de ingresos en un solo lugar. Moderno, rápido y confiable.',
     cta: 'Agenda una demostración',
     ctaSecondary: 'Ver características',
-    chips: ['Mapa en tiempo real', 'Cobro por tiempo', 'Reportes e ingresos'],
+    chips: [
+      'Mapa en tiempo real',
+      'Reservas de espacios',
+      'Pago por QR y monedero',
+      'Reportes e ingresos',
+    ],
   },
   features: {
     title: 'Todo lo que tu estacionamiento necesita',
@@ -28,8 +33,18 @@ const ES = {
       },
       {
         icon: 'clock',
-        title: 'Cobro automático por tiempo',
-        text: 'Tarifas calculadas según la duración de la estancia. Sin errores ni cuentas manuales.',
+        title: 'Reservas de espacios',
+        text: 'El cliente aparta su lugar desde el mapa, con ventana de tiempo y avisos automáticos.',
+      },
+      {
+        icon: 'qr',
+        title: 'Pago con código QR',
+        text: 'Cada estancia genera su propio QR; el empleado lo cobra a la salida en segundos.',
+      },
+      {
+        icon: 'wallet',
+        title: 'Monedero electrónico',
+        text: 'El cliente recarga saldo y paga sus estancias con un toque, sin efectivo ni tarjetas.',
       },
       {
         icon: 'car',
@@ -57,10 +72,10 @@ const ES = {
     title: 'Así se ve por dentro',
     subtitle: 'Un vistazo real al sistema: limpio, moderno y fácil de usar.',
     frames: [
-      { caption: 'Mapa de espacios en tiempo real' },
-      { caption: 'Pagos y estadísticas de ingresos' },
+      { caption: 'Reserva y ocupa tu espacio desde el mapa' },
+      { caption: 'Pago con QR, monedero y tarjeta en la salida' },
+      { caption: 'Mi cuenta: saldo, monedero y movimientos' },
       { caption: 'Registro de vehículos y clientes' },
-      { caption: 'Historial y archivo' },
     ],
   },
   video: {
@@ -88,8 +103,8 @@ const ES = {
       {
         icon: 'card',
         step: '03',
-        title: 'Cobra',
-        text: 'Entradas, salidas y pagos automáticos por tiempo. Listo.',
+        title: 'Cobra por QR o monedero',
+        text: 'Entradas, salidas y pagos automáticos por tiempo, por QR y con monedero. Listo.',
       },
     ],
   },
@@ -105,18 +120,18 @@ const ES = {
       {
         icon: 'user',
         title: 'Empleado',
-        text: 'Maneja el día a día: entradas, salidas y caja desde el mapa.',
+        text: 'Maneja el día a día: entradas, salidas, caja y cobros por QR desde el mapa.',
       },
       {
-        icon: 'car',
+        icon: 'wallet',
         title: 'Cliente',
-        text: 'Registra sus vehículos y consulta su historial de pagos y movimientos.',
+        text: 'Reserva su lugar, recarga su monedero y paga sus estancias en un toque.',
       },
     ],
   },
   cta: {
     title: '¿Listo para digitalizar tu estacionamiento?',
-    text: 'Escríbenos por WhatsApp y agenda una demostración en vivo.',
+    text: 'Mapa en tiempo real, reservas, pago por QR y monedero. Agenda una demostración en vivo.',
     button: 'Hablar por WhatsApp',
   },
   footer: {
@@ -142,7 +157,12 @@ const EN = {
       'Real-time space map, automatic time-based billing, vehicle registry and revenue statistics in one place. Modern, fast and reliable.',
     cta: 'Request a demonstration',
     ctaSecondary: 'See features',
-    chips: ['Real-time map', 'Time-based billing', 'Reports and revenue'],
+    chips: [
+      'Real-time map',
+      'Space reservations',
+      'QR and wallet payments',
+      'Reports and revenue',
+    ],
   },
   features: {
     title: 'Everything your parking lot needs',
@@ -155,8 +175,18 @@ const EN = {
       },
       {
         icon: 'clock',
-        title: 'Automatic time-based billing',
-        text: 'Rates calculated from the length of the stay. No mistakes, no manual math.',
+        title: 'Space reservations',
+        text: 'Clients book their spot from the map, with a time window and automatic alerts.',
+      },
+      {
+        icon: 'qr',
+        title: 'QR code payments',
+        text: 'Every stay generates its own QR; the employee charges it at the exit in seconds.',
+      },
+      {
+        icon: 'wallet',
+        title: 'E-wallet',
+        text: 'Clients top up their balance and pay for their stays in one tap, no cash or cards.',
       },
       {
         icon: 'car',
@@ -184,10 +214,10 @@ const EN = {
     title: 'See it from the inside',
     subtitle: 'A real look at the system: clean, modern and easy to use.',
     frames: [
-      { caption: 'Real-time space map' },
-      { caption: 'Payments and revenue statistics' },
+      { caption: 'Reserve and occupy your spot from the map' },
+      { caption: 'Pay by QR, wallet or card at the exit' },
+      { caption: 'My account: balance, wallet and activity' },
       { caption: 'Vehicle and client registry' },
-      { caption: 'History and archive' },
     ],
   },
   video: {
@@ -215,8 +245,8 @@ const EN = {
       {
         icon: 'card',
         step: '03',
-        title: 'Charge',
-        text: 'Entries, exits and automatic time-based payments. Done.',
+        title: 'Charge by QR or wallet',
+        text: 'Entries, exits and automatic time-based payments, by QR and with wallet. Done.',
       },
     ],
   },
@@ -232,18 +262,18 @@ const EN = {
       {
         icon: 'user',
         title: 'Employee',
-        text: 'Handles day-to-day: entries, exits and cash from the map.',
+        text: 'Handles day-to-day: entries, exits, cash and QR charges from the map.',
       },
       {
-        icon: 'car',
+        icon: 'wallet',
         title: 'Client',
-        text: 'Registers their vehicles and checks their payment and activity history.',
+        text: 'Reserves their spot, tops up their wallet and pays their stays in one tap.',
       },
     ],
   },
   cta: {
     title: 'Ready to digitalize your parking lot?',
-    text: 'Message us on WhatsApp and book a live demonstration.',
+    text: 'Real-time map, reservations, QR payments and wallet. Book a live demonstration.',
     button: 'Chat on WhatsApp',
   },
   footer: {

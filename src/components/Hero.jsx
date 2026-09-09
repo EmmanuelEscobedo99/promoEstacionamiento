@@ -2,11 +2,6 @@ import { useLang } from '../LanguageContext'
 import { whatsappLink } from '../content'
 import Icon from './Icon'
 
-const SPOTS = [
-  'free', 'free', 'occupied', 'free', 'occupied', 'occupied', 'free', 'free',
-  'occupied', 'free', 'free', 'occupied', 'free', 'free', 'occupied', 'free',
-]
-
 export default function Hero() {
   const { lang, t } = useLang()
 
@@ -54,29 +49,11 @@ export default function Hero() {
               <span className="preview-dot g" />
               <span className="preview-url">sistema.estacionamiento.app</span>
             </div>
-            <div className="preview-body">
-              <div className="preview-sidebar">
-                <div className="preview-logo" />
-                {[0, 1, 2, 3, 4].map((i) => (
-                  <span key={i} className="preview-nav-item" />
-                ))}
-              </div>
-              <div className="preview-content">
-                <div className="preview-head">
-                  <span className="preview-title" />
-                  <span className="preview-stat" />
-                </div>
-                <div className="preview-cards">
-                  <span className="preview-card" />
-                  <span className="preview-card" />
-                  <span className="preview-card" />
-                </div>
-                <div className="preview-grid">
-                  {SPOTS.map((s, i) => (
-                    <span key={i} className={`preview-spot ${s}`} />
-                  ))}
-                </div>
-              </div>
+            <div className="preview-img">
+              <img
+                src="/images/MAPA TIEMPO REAL.png"
+                alt="Mapa de espacios del sistema en tiempo real"
+              />
             </div>
           </div>
           <div className="preview-caption">
